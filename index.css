@@ -8,9 +8,15 @@ body {
     box-sizing: border-box;
     overflow: hidden;
 }
-nav {
+header{
+    background:url(./img/wp.jpg) ;
+    position: relative; 
+    z-index: 1;
+}
+nav{
     width: 100%;
     background-color: #b7dada;
+    /* background-color: #1d2b2b; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -49,10 +55,52 @@ nav {
 .hero{
     background-image: url(./img/is.jpg);
     /* background-color: rgb(93, 160, 138); */
-    /* width: 100%; */
+    width: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 70vh;
+    min-height: 55vh;
     background-size: cover;
-    padding-top: 12rem;
+    padding-top: 07rem;
+
+}
+.bis{
+    text-align: right;
+    max-width: 1200px;
+    font-size: 35px;
+    text-shadow: 2px 1px 5px blanchedalmond; 
+}
+.hero-content {
+    text-align: right;
+    /* max-width: 1100px; */
+    padding: 15px;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    /* border-radius: 5px; */
+}
+/* .hero-content h2{
+    font-size: 20px;
+    font-weight: 200; 
+    max-width: 1100px; */
+    /* text-shadow: 1px 1px 3px white;    */
+    /* text-shadow: 2px 1px 4px blanchedalmond;
+    text-align: right;
+} */
+/* .hero-content h2:hover{
+    color: wheat;
+    text-shadow: 1px 1px 3px black; 
+} */
+.hero-content h1{
+    font-size: 35px;
+    text-shadow: 2px 1px 5px blanchedalmond;
+    text-transform: uppercase; 
+    font-weight: 600;
+    max-width: 1300px;
+} 
+.hero-content p{
+    text-shadow: 2px 1px 4px blanchedalmond;
+    padding-left: 600px;
+    max-width: 1000px;
+    text-align: left;
+    line-height: 1.6;
+    border-radius: 10px;
+    /* font-size: 1.1em; */
 }
