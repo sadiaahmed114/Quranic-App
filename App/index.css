@@ -36,6 +36,7 @@ nav{
 .navbar ul{
     list-style: none;
     display: flex;
+    text-shadow: 2px 1px 5px blanchedalmond; 
 }
 .navbar ul li {
     margin:0 10px;
@@ -96,6 +97,7 @@ nav{
     text-transform: uppercase; 
     font-weight: 600;
     max-width: 1300px;
+    padding-left: 2%;
 } 
 .hero-content p{
     text-shadow: 2px 1px 4px blanchedalmond;
